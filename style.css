@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url("nature3.jpg");
+    background-size: cover;
+    backdrop-filter: blur(8px);
+}
+.container{
+    max-width: 475px;
+    padding: 24px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid grey;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.heading{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.credentials input {
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 6px;
+    width: 200px;
+    margin-bottom: 10px; 
+    font-size: 16px;
+    background-color: transparent;
+    cursor: text;
+}
+.credentials{
+    margin-bottom: 20px;
+    color: #000;
+}
+.separator{
+    content:"";
+    width: 100%;
+    border:1px solid black;
+}
+.links {
+    margin-bottom: 18px;
+}
+.links a{
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9rem;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 200px;
+    border-radius: 30px;
+    padding: 8px;
+    border: 1px solid #000;
+    color: #ccc;
+    background-color:#484545;
+
+}
